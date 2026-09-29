@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Poonam Suthar — Senior Mobile Engineer specializing in Flutter and Android with 9+ years of experience.">
+<title>Poonam Suthar | Senior Mobile Engineer</title>
+<style>
+:root{
+  --bg:#f7f8fc; --card:#fff; --text:#172033; --muted:#5f6b7a;
+  --accent:#635bff; --accent2:#8b5cf6; --line:#e7e9f0;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}
+.container{max-width:1100px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-inner{height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:20px}.logo span{color:var(--accent)}
+.nav-links{display:flex;gap:24px;font-size:14px;color:var(--muted)}
+.nav-links a:hover{color:var(--accent)}
+.hero{padding:90px 0 75px;background:linear-gradient(135deg,#f7f8fc 0%,#eef0ff 100%)}
+.badge{display:inline-block;background:#e7e5ff;color:#4b43c7;padding:7px 13px;border-radius:999px;font-size:13px;font-weight:700}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.05;margin:20px 0 18px;letter-spacing:-2px}
+.hero h1 span{color:var(--accent)}
+.hero p{max-width:760px;font-size:19px;color:var(--muted);margin:0 0 30px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 19px;border-radius:10px;font-weight:700;border:1px solid var(--line)}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn:hover{transform:translateY(-1px)}
+section{padding:72px 0}
+.section-title{font-size:32px;margin:0 0 10px;letter-spacing:-.7px}
+.section-subtitle{color:var(--muted);margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 8px 30px rgba(25,32,56,.04)}
+.card h3{margin:0 0 8px;font-size:21px}
+.card p{color:var(--muted);margin:7px 0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{padding:6px 10px;background:#f0f1f7;border-radius:8px;font-size:12px;font-weight:650;color:#41495b}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:15px;padding:18px}
+.stat strong{display:block;font-size:28px}.stat span{color:var(--muted);font-size:13px}
+.timeline{border-left:2px solid #dfe1ea;margin-left:8px;padding-left:28px}
+.role{position:relative;margin-bottom:35px}
+.role:before{content:"";position:absolute;left:-37px;top:7px;width:12px;height:12px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 5px #e9e8ff}
+.role h3{margin:0;font-size:21px}.role .meta{color:var(--accent);font-weight:700;font-size:14px}.role p{color:var(--muted)}
+ul{padding-left:20px;color:var(--muted)}li{margin:6px 0}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skill h4{margin:0 0 8px}.skill p{margin:0;color:var(--muted);font-size:14px}
+.contact{background:#171b2d;color:#fff;border-radius:24px;padding:48px}
+.contact p{color:#c6cada}.contact .btn{color:#fff;border-color:#4c526a}
+footer{text-align:center;color:var(--muted);padding:30px 0;font-size:13px}
+@media(max-width:800px){
+ .nav-links{display:none}.grid,.skills{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}
+ .hero{padding:65px 0}.contact{padding:30px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <a class="logo" href="#">Poonam<span>.</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <span class="badge">Senior Mobile Engineer • Flutter & Android</span>
+    <h1>Building reliable<br><span>mobile experiences.</span></h1>
+    <p>
+      I'm Poonam Suthar, a Senior Mobile Engineer with 9+ years of experience
+      building production-grade mobile applications with Flutter and native Android.
+      I enjoy taking products from requirements and UI through APIs, integrations,
+      debugging and production release.
+    </p>
+    <div class="buttons">
+      <a class="btn primary" href="mailto:poonamsuthar22@gmail.com">Let's Connect</a>
+      <a class="btn" href="#projects">View Projects</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>9+</strong><span>Years in Mobile Development</span></div>
+      <div class="stat"><strong>4+</strong><span>Years of Flutter</span></div>
+      <div class="stat"><strong>20+</strong><span>Native Android Apps</span></div>
+      <div class="stat"><strong>UK</strong><span>International Client Experience</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-subtitle">A hands-on mobile engineer who enjoys solving real product and technical problems.</p>
+    <div class="card">
+      <p>
+        I specialize in Flutter and Android development, with experience across
+        language learning, workforce management, industrial operations, e-commerce,
+        and residential community management. My background in native Android helps
+        me handle platform-specific requirements and technical challenges within Flutter applications.
+      </p>
+      <p>
+        I have worked directly with UK-based clients, translating requirements into
+        production features and supporting applications through development, testing,
+        debugging, release and maintenance.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Selected Projects</h2>
+    <p class="section-subtitle">A few projects that demonstrate my mobile engineering experience.</p>
+    <div class="grid">
+      <article class="card">
+        <h3>Ezglish</h3>
+        <p><strong>Multilingual Language Learning • UK Client</strong></p>
+        <p>Independently developed major Flutter features including hotspot images, multilingual content, TTS, STT, word-level highlighting, tap-to-translate and pronunciation practice.</p>
+        <div class="tags"><span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">TTS/STT</span><span class="tag">Zoom SDK</span><span class="tag">REST APIs</span></div>
+      </article>
+      <article class="card">
+        <h3>Depotnet</h3>
+        <p><strong>Workforce & Job Management • UK Client</strong></p>
+        <p>Developed and maintained features across a suite of 20+ native Android applications supporting jobs, contracts, workforce management and field operations.</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">Java</span><span class="tag">Field Service</span><span class="tag">Production Support</span></div>
+      </article>
+      <article class="card">
+        <h3>SocietyRun</h3>
+        <p><strong>Housing Society Management</strong></p>
+        <p>Built and maintained Flutter modules for complaints, announcements, meetings, visitors and maintenance billing, including payment and notification integrations.</p>
+        <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Razorpay</span><span class="tag">Paytm</span></div>
+      </article>
+      <article class="card">
+        <h3>E-Logsheet</h3>
+        <p><strong>Industrial Offline-First Application • GAIL</strong></p>
+        <p>Built an offline-first Android solution for industrial shift readings with location-based login, local drafts, background synchronization and daily reporting.</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">Java</span><span class="tag">SQLite</span><span class="tag">Offline-first</span></div>
+      </article>
+      <article class="card">
+        <h3>X-Docx Android</h3>
+        <p><strong>Configurable Product Platform</strong></p>
+        <p>Built a database-driven Android platform and MVC Web API designed around configurable product structures and reusable application workflows.</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">Java</span><span class="tag">SQLite</span><span class="tag">MVC</span></div>
+      </article>
+      <article class="card">
+        <h3>SareeSaga</h3>
+        <p><strong>Indian Ethnic Wear E-Commerce</strong></p>
+        <p>Developed a native Android e-commerce application and integrated payment functionality using CCAvenue and PayPal.</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">Java</span><span class="tag">Payments</span><span class="tag">E-commerce</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-subtitle">9+ years across Flutter and native Android development.</p>
+    <div class="timeline">
+      <div class="role">
+        <h3>Android & Flutter Developer — Suntec Web Services Pvt. Ltd.</h3>
+        <div class="meta">Delhi • Jan 2022 – Present</div>
+        <p>End-to-end Flutter development for Ezglish and development/maintenance of 20+ native Android applications in the Depotnet platform. Direct collaboration with UK-based clients.</p>
+      </div>
+      <div class="role">
+        <h3>Android & Flutter Developer — Convivial Software Pvt. Ltd.</h3>
+        <div class="meta">Pune • Jan 2020 – Dec 2021</div>
+        <p>Built and maintained SocietyRun, including Flutter UI, business logic, APIs, Firebase, payment gateways and production support.</p>
+      </div>
+      <div class="role">
+        <h3>Android Developer — SSM InfoTech Solutions Pvt. Ltd.</h3>
+        <div class="meta">Surat • Oct 2016 – Mar 2019</div>
+        <p>Developed native Android applications for industrial and field-service workflows, including offline-first systems, tracking, complaints and workforce applications.</p>
+      </div>
+      <div class="role">
+        <h3>Android Developer — 3Fusion</h3>
+        <div class="meta">Surat • Feb 2016 – Aug 2016</div>
+        <p>Contributed to SareeSaga, an Android e-commerce application with integrated payment functionality.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+    <p class="section-subtitle">Tools and technologies I use across mobile application development.</p>
+    <div class="skills">
+      <div class="card skill"><h4>Mobile</h4><p>Flutter, Dart, Native Android, Java, Android SDK, Android Studio</p></div>
+      <div class="card skill"><h4>Flutter</h4><p>GetX, Provider, UI, Navigation, Bindings, Controllers, API Integration, Responsive UI</p></div>
+      <div class="card skill"><h4>Architecture</h4><p>MVVM, MVC, modular application structure, reusable workflows</p></div>
+      <div class="card skill"><h4>Backend & Data</h4><p>REST APIs, Web APIs, SQL, SQLite, local storage, offline-first, synchronization</p></div>
+      <div class="card skill"><h4>Firebase & Integrations</h4><p>Authentication, FCM, Razorpay, Paytm, CCAvenue, PayPal, TTS, STT, Zoom SDK</p></div>
+      <div class="card skill"><h4>Development</h4><p>GitLab, Azure DevOps, JIRA, VS Code, Android Studio, Claude, ChatGPT</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Education & Recognition</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>B.E. — Computer Science & Engineering</h3>
+        <p>Gujarat Technological University (GTU) • 2015 • CGPA 7.20</p>
+      </div>
+      <div class="card">
+        <h3>Achievements</h3>
+        <ul>
+          <li>Client appreciation for work delivered on GAIL E-Logsheet.</li>
+          <li>Client appreciation for contributions to Ezglish.</li>
+          <li>2nd Runner-Up, C-Quest Event, Vishvesmruti-2K14.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact">
+      <h2 class="section-title">Let's build something useful.</h2>
+      <p>If you're looking for a Senior Flutter / Android Engineer for a product, platform or mobile team, I'd be happy to connect.</p>
+      <div class="buttons">
+        <a class="btn primary" href="mailto:poonamsuthar22@gmail.com">poonamsuthar22@gmail.com</a>
+        <a class="btn" href="tel:+919726197065">+91 97261 97065</a>
+      </div>
+      <p style="margin-top:22px;font-size:14px">Pune, Maharashtra, India • English • Hindi • Gujarati • Marathi</p>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Poonam Suthar • Senior Mobile Engineer</footer>
+</body>
+</html>
